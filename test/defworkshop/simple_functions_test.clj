@@ -18,9 +18,9 @@
   (is (= 64 (cube 4))))
 
 (deftest sum-of-numbers-test
-  (is (+ 3 (sum-of-numbers 1 2)))
-  (is (+ 6 (sum-of-numbers 1 2 3)))
-  (is (+ 10 (sum-of-numbers 1 2 3 4))))
+  (is (= 3 (sum-of-numbers 1 2)))
+  (is (= 6 (sum-of-numbers 1 2 3)))
+  (is (= 10 (sum-of-numbers 1 2 3 4))))
 
 (deftest sum-of-numbers-in-vector-test
   (is (+ 7 (sum-of-numbers-in-vector [3 4])))
